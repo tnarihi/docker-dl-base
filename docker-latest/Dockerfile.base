@@ -1,2 +1,2 @@
-FROM tnarihi/docker-python:latest
+FROM tnarihi/python:latest
 

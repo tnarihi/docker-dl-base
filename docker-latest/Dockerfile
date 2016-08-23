@@ -1,4 +1,4 @@
-FROM tnarihi/docker-python:latest
+FROM tnarihi/python:latest
 
 RUN apt-get install -y wget
 RUN wget https://cmake.org/files/v3.1/cmake-3.1.3.tar.gz

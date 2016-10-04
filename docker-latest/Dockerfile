@@ -14,3 +14,4 @@ RUN pip install pytest
 RUN pip install pytest-rerunfailures
 RUN apt-get install -y clang-format-3.4
 RUN apt-get install -y zsh
+RUN pip install theano

@@ -1,5 +1,4 @@
-FROM tnarihi/python:cuda7.5
-
+FROM tnarihi/python:cuda8.0-cudnn5
 RUN apt-get install -y wget
 RUN wget https://cmake.org/files/v3.1/cmake-3.1.3.tar.gz
 RUN tar xvf cmake-3.1.3.tar.gz
